@@ -9,4 +9,4 @@ services:
     ports:
       - "8888:8888"
     volumes:
-      - ./shared/:/home/app/shared/
+      - ./shared/:/home/app/shared/:rw
