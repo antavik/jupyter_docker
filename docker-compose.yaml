@@ -3,6 +3,8 @@ services:
 
   jupyter:
     image: jupyter
+    container_name: jupyter
+    build: ./
     restart: unless-stopped
     command: jupyter-notebook --ip=0.0.0.0 --no-browser
     ports:
